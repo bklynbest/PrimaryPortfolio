@@ -15,7 +15,7 @@ var works = [
     name:"Projekts"
   },
   {
-    title: "Recipe Sharing Application",
+    title: "Recipe Sharing App",
     pic: "img/workimg/recipeapp.png",
     link:"https://britanniarecipebox.herokuapp.com/",
     github:"https://github.com/bklynbest/recipebox",
