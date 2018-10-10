@@ -38,7 +38,7 @@ var works = [
   {
     title: "React Todo List",
     pic: "img/workimg/reacttodo.png",
-    link: "https://dreamy-wright-9b9189.netlify.com/",
+    link: "https://todoappreact.netlify.com",
     github: "https://github.com/bklynbest/Reacttodolist",
     name: "BritanniaTodo"
   }
