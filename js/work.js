@@ -41,6 +41,13 @@ var works = [
     link: "https://todoappreact.netlify.com",
     github: "https://github.com/bklynbest/Reacttodolist",
     name: "BritanniaTodo"
+  },
+  {
+    title: "Javascript Form",
+    pic: "img/workimg/form.png",
+    link: "https://coolform.netlify.com/",
+    github: "https://github.com/bklynbest/coolform",
+    name: "Fancy Form"
   }
   
 ];
