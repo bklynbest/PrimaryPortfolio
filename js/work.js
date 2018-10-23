@@ -50,8 +50,8 @@ var works = [
     name: "Fancy Form"
   },
   { 
-    title: "React Chat",
-    pic: "img/reactchat/form.png",
+    title: "React Chat App",
+    pic: "img/workimg/reactchat.png",
     link: "https://brianniachat.netlify.com/",
     github: "https://github.com/bklynbest/reactchatapp",
     name: "Britannia Chat"
