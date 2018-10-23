@@ -48,7 +48,15 @@ var works = [
     link: "https://coolform.netlify.com/",
     github: "https://github.com/bklynbest/coolform",
     name: "Fancy Form"
+  },
+  { 
+    title: "React Chat App",
+    pic: "img/reactchat/form.png",
+    link: "https://brianniachat.netlify.com/",
+    github: "https://github.com/bklynbest/reactchatapp",
+    name: "Britannia Chat"
   }
+  
   
 ];
 
