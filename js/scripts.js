@@ -100,7 +100,7 @@ $(document).ready(function() {
 	   for (var i = 0; i < works.length; i++) {
 	     $('#work').append("\
 	    	 <div class='col-sm-3 col-md-3' style='width: 20em; height: 20em;' >\
-	       <span class='info' style='font-size: 2em'><p class='proj-title'></p>" + works[i].name + "</span>  \
+	       <span class='info' style='font-size: 1.2em'><p class='proj-title'></p>" + works[i].name + "</span>  \
 	       <a href='" + works[i].link + "' class='work-img weblink' style='text-decoration: none; font-size: 1.2em; color:salmon'>\
 	       <img class='img-responsive img-thumbnail' style='height: 150px; width: 300px' src='" + works[i].pic + "'>\
 	       <span class='info'><p class='proj-title'></p>" + works[i].title + "</span>  \
