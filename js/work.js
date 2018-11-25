@@ -36,11 +36,11 @@ var works = [
     github:"https://github.com/bklynbest/britanniaWeather"
   },
   {
-    name: "Javascript | React",
-    title: "Todo List",
-    pic: "img/workimg/reacttodo.png",
-    link: "https://todoappreact.netlify.com",
-    github: "https://github.com/bklynbest/Reacttodolist",
+    name: "React | Firebase | Redux",
+    title: "Planner",
+    pic: "img/workimg/planner.png",
+    link: "https://britannia-planner.firebaseapp.com/",
+    github: "https://github.com/bklynbest/planner",
   },
   {
     name: "Javascript",
