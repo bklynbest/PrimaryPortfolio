@@ -1,181 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta content="IE=edge" http-equiv="X-UA-Compatible">
-	<meta content="width=device-width, initial-scale=1" name="viewport"><!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<title>Jonathan Momperousse</title><!-- Bootstrap core CSS -->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"><!-- Custom styles for this template go here -->
-	<link href="css/normalize.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <title>Jonathan Momperousse</title>
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
 </head>
 
-	<link href="css/stylesrevised.css" rel="stylesheet"><!-- ============================= -->
-	<!-- All your JavaScript comes now -->
-	<!-- ============================= -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-	</script> <!-- Bootstrap core JS -->
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js">
-	</script> <!-- Can place script tags with JavaScript files here -->
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	 <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-	 <!---new nav bar starts here-->
-<body data-spy="scroll" data-target=".navbar" id="backgroundcss">
-	   <!-- navbar starts here -->
-	   <!-- Collect the nav links, forms, and other content for toggling -->
-  <nav class="navbar navbar-inverse navbar-fixed-top" style="padding-bottom: 6em" role="navigation">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	        <div class="projectName navbar-brand"style= "text-decoration:none">
-	          <a href="#home" style= 'text-decoration:none;'>Jonathan Momperousse</a>
-	        </div><!-- /projectName -->
-	    </div><!-- /navbar-header -->
-	      <div class="navbar-collapse collapse">
-	       <ul class="nav navbar-nav navbar-right">
-	         <li><a href="#home">Home</a></li>
-	         <li><a href="#work">Work</a></li>
-	         <li><a href="#contact">Contact Me</a></li>
-	       </ul>
-	      </div>
-	  </div>
-	</nav><!-- /navbar -->
-<div class='homeback' style='background-color:#DCDCDC; padding-bottom: 7em'>
+<body>
+  <div class="container">
+    <h1 class="name">Jonathan Momperousse</h1>
+    <h4 class="title">Fullstack Web Developer</h4>
+  </div>
 <div class="container">
   
-        <!--About Me -->
-		<div class="header" id="home">
-			<h1 style="text-align: center; padding-top:5em; padding-bottom: 1em">About Me</h1>
-			<div class="col-sm-4 col-md-4 col-lg-4">
-					<p> I'm a Web Developer based in Brooklyn, New York. My area of expertise is Ruby on Rails, 
-					    and I also enjoy working with front-end technologies like JavaScript and CSS. I have 
-					    been interested in technology and gaming since I was just a kid.
-					</p>
-          <p> In my early teens, I enjoyed designing my own MySpace page and fell in love with computers. 
-             I spent countless hours on Xbox Live, where I went by the name Britannia online. I continue
-             to use it today because the nostalgia that it brings back serves as a reminder of my true interests 
-             and motivates me to keep moving forward toward my ultimate goals. My path to becoming a web developer
-             has been winding.
-          </p>
-          <p>
-            I studied in a Pharmacy program at Long Island University and worked in healthcare for several years. 
-            I’ve learned to manage stress and work through difficult situations with a calm head. This rewarding 
-            work makes me a well-rounded developer and I like using my skills to improve the world. I’m currently 
-            working with CodeDoesGood, a non-profit committed to using the tech community to build solutions to real
-            world problems, where I am helping build their frontend. I’m looking for freelance or full-time web development 
-            work in the NYC area. Check out some of my work here, and contact me if you would like to chat about working together.
-          </p>
-			</div>
-			<div class="col-sm-6 col-md-6 col-lg-6"><img src="img/darkjukebox.jpg" class="img-responsive"></div>
-		</div> <!-- end header-->
-		  <div class="col-md-2">
-          <div class="modal-button">
-        <button class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">View resume/CV</button>
-      </div>
-      <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title" id="myModalLabel">Resume/CV</h4>
-            </div>
-						<div class="modal-body" style="height: 500px">
-							<embed id="modalembed " src="pdf/current_resume.pdf" frameborder="0" width="100%" height="100%" >
-						</div>
-          </div>
+      <div id="work-items" class="row">
         </div>
-     </div>
-  </div>
-  </div>
-  </div>
-<div class="workingback" style="background-color: gray; padding-bottom: 8em">
-	<div class="container">
-	    <div class="header">
-	      <div class='images' id="work">
-	    <h1 style="text-align: center;padding-top:4em; padding-bottom: 2em">My Portfolio</h1>
-
-		  </div>
-		  </div>
-		</div>
-	</div>
-	
-	
-			<!---FAQ-->
+</div>
 
 
-						<!---contact page -->
-	<div class="background" style="background-color:#404040;">
-	<div class="container-fluid" img src="img/road.png" class="img-responsive" id="newimg">
-		<div class="header" id="contact">
-			<h1 style="color:#c3b928; text-align: center; padding-top:3em; padding-bottom: 1em" >Contact Me</h1>
-		</div>
-		<div class="row" style="color:#d4de86">
-			<div class="col-sm-6 col-md-6 col-lg-6">
-				<h3>Email</h3>
-					 <p><a href ="mailto:bklynbest718@gmail.com?subject=PortfolioContact""email me">bklynbest718@gmail.com</a> </p>
-						<form action="https://formspree.io/bklynbest718@gmail.com"
-      method="POST">
-	         <div class="form-group name">
-	           <label for="name">Name*</label>
-	           <input name="name" class="form-control" type="text" placeholder="Your name here" id="name"
-	           title="Please enter name here" required>
-	           <span class="visible-form" id="visible-name"></span>
-	         </div>
-	         
-	           <div class="form-group email">
-	           <label for="email">Email address*</label>
-	           <input name="_replyto" class="form-control" type="email" placeholder="Your email here" id="email"
-	           title="Please enter email address" required >
-	           <span class="visible-form" id="visible-email"></span>
-	         </div>
-	         </div>
-	        <div class = "col-sm-6 col-md-6">
-	           <div class="form-group">
-	             <label for="message">Message*</label>
-	             <textarea class="form-control message-box" style="resize:none;height: 21.39em" cols="40" rows="5"
-	             placeholder="Your message here" title="Please enter a message" id="message" required name="name"></textarea>
-	             <span class="visible-form" id="visible-message"></span>
-	             <p id="char-count"></p>
-	              <button type="submit" class="btn btn-default" id="submit-form">Submit</button>
-	              <span class="visible-form" id="visible-message-received" value="Send"></span>
-	           </div>
-	         </div>
-	       </form>
-			</div>
-		</div>
-	</div>
+<form class="form-style-4" action="https://formspree.io/bklynbest718@gmail.com" method="post">
+<label for="field1">
+<span>Enter Your Name</span><input type="text" name="name" required="true" />
+</label>
+<label for="field2">
+<span>Email Address</span><input type="email" name="_replyto" required="true" />
+</label>
+<label for="field4">
+<span>Message Me</span><textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea>
+</label>
+<label>
+<span> </span><input type="submit" value="Send" />
+<input type="hidden" name="_subject" value="Website contact" />
+<input type="hidden" name="_next" value="https://www.JonathanMomperousse.com"/>
+<input type="text" name="_gotcha" style="display:none" />
+</label>
+</form>
 
-  <center>
-    <footer style="padding: 10px">
-		  &copy;Britannia  Dev
-	  </footer>
-  </center>
+<script type="text/javascript">
+//auto expand textarea
+function adjust_textarea(h) {
+    h.style.height = "20px";
+    h.style.height = (h.scrollHeight)+"px";
+}
+</script>
 
-</div><!-- All your JavaScript comes now -->
-	<!-- ============================= -->
-	 <!-- Bootstrap core JS -->
-	 <!-- Can place script tags with JavaScript files here -->
-	 <!-- Can place script tags with JavaScript files here -->
+  <script src="js/work.js"></script>
+  <script src="js/script.js"></script>
 
-	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	 <!-- Bootstrap core JS -->
-	 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	 <!-- Can place script tags with JavaScript files here -->
-	 <script src="js/jquery.stellar.min.js"></script>
-	 <script src="js/work.js">
-	 </script>
-	<script src="js/scripts.js">
-	</script>
-	<script async defer
-	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFM4KpdO9kGvmaeSdcnxghrhRro12UQjA&callback=initMap">
-	</script>
 </body>
+
 </html>
+
+
+
